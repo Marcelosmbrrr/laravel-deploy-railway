@@ -24,7 +24,7 @@ public function boot(): void
     - Criar a variável NIXPACKS_BUILD_CMD.
 - Executar o deploy.
 
-Seria possível incluir o comando de migaração e de seeding.
+Seria possível incluir o comando de migração e de seeding.
   
 ```
 NIXPACKS_BUILD_CMD="composer install && npm install && npm run build && php artisan optimize"
