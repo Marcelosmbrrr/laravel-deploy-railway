@@ -21,7 +21,7 @@ public function boot(): void
     - Usando o "Raw Editor", pode copiar e colar os dados do arquivo .env do ambiente de desenvolvimento;
     - Alterar APP_ENV para "production" e APP_DEBUG para "false";
     - Configurar as variáveis de conexão com o banco de dados;
-    - Criar a variável NIXPACKS_BUILD_CMD.
+    - Criar a variável NIXPACKS_BUILD_CMD (ver abaixo).
 - Executar o deploy.
 
 Seria possível incluir o comando de migração e de seeding.
